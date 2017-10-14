@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+}
+table{
+    border:1px solid;
+    border-color: red;
+}
+.logo{
+    float: left;
+    margin: 37px
+}
+a{
+    text-decoration: none;
+    color:#ffff;
+}
+.header{
+    background-image: url(img/bg-header.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 670px;
+
+}
+.overlay{
+    background: rgba(49, 29, 94, 0.67);
+    overflow: hidden;
+    height: 670px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+ul{
+    float: right;
+    margin: 37px;
+}
+
+   /*
+   hijau : #00e0d0
+   */
