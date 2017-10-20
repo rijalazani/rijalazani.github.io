@@ -1,5 +1,4 @@
 body {
-    background: #f7f5f1;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 0;
@@ -23,15 +22,14 @@ table {
     color: #00e0d0;
     display: inline-block;
     text-transform: uppercase;
+    font-weight: bold;
     transition: .3s;
 }
 
 .btn:hover {
-    border: 1px solid #ffffff;
-    background: #ffffff;
+    background: rgba(31, 243, 225, 0.65);
+    color:#ffffff;
 }
-
-
 
 
 .intro, .btn-play {
@@ -99,6 +97,7 @@ ul {
 .video {
     background-image: url(img/bg-video.jpg);
 }
+
 
 
 /*
