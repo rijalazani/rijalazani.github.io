@@ -1,7 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    background: #f7f5f1;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 70px
 }
+
 
 table {
     border: 1px solid;
@@ -29,11 +33,11 @@ table {
 
 
 
-.intro  {
-    padding: 100px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+.intro, .btn-play {
+    padding :100px;
     text-align: center;
-    color: rgb(4, 4, 4);
+    color: #fff;
     clear: both;
 }
 
@@ -50,18 +54,22 @@ a:hover {
 .putih{
     color:#ffffff;
 }
-.header {
+
+.header, .video {
     background-image: url(img/bg-header.jpg);
     background-size: cover;
     overflow: hidden;
-    height: 670px;
+    height:  670px;
+}
+.video{
+    height:400px;
 }
 
-.overlay {
-       /* background: #311d5e; */
-       background: rgba(49, 29, 94, 0.67);
-       overflow: hidden;
-       height: 670px;
+
+.overlay{
+    background: rgba(60, 31, 133, 0.55);
+    overflow: hidden;
+    height:  670px;
 }
 .garis  {
     width: 50px;
@@ -77,6 +85,19 @@ li {
 ul {
     float: right;
     margin: 37px;
+}
+.container {
+    margin: 100px auto;
+    max-width: 1024px;
+}
+.btn-play {
+    margin: 90px 0;
+}
+.btn-play a:hover {
+    color: inherit;
+}
+.video {
+    background-image: url(img/bg-video.jpg);
 }
 
 
