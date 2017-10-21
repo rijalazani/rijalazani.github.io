@@ -1,0 +1,50 @@
+.btn {
+  border-radius: 0;
+}
+
+.btn-success {
+  background-color: #0c631b;
+}
+.intro {
+  margin: 10rem 0;
+}
+.header {
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.header a {
+  color: #fff;
+}
+.header .dropdown-item {
+  color: #333;
+}
+.overlay{
+  background: rgba(49, 29, 94, 0.5);
+  color: #fff;
+  overflow: hidden;
+}
+.btn, .btn:hover {
+  text-transform: uppercase;
+  color: #00e0d0;
+  border-color: #00e0d0;
+}
+.btn:hover {
+  background-color: #00e0d0;
+  color: #000;
+}
+
+.navbar-brand img {
+  -webkit-filter: brightness(100);
+}
+
+/* slider */
+#slider-home .carousel-indicators {
+  position: relative;
+  top: 3rem;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
