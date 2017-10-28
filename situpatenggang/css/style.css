@@ -47,6 +47,8 @@
 
 .carousel-item {
     color: white;
+    text-shadow: #666 !important;
+    
 }
 
 .jumbotron {
@@ -61,4 +63,62 @@
 .alamat {
     background: #ffffff;
     color: #000000;
+}
+.ukuran{
+    width:450px;
+}
+
+@media screen and (max-width: 576px) {
+.map{
+    width:100% !important;
+}
+.ukuran{
+    width:100%;
+}
+}
+
+.demo-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #F0353A;
+    border: 2px solid #F0353A;
+    padding: 6px 10px;
+    display: inline-block;
+    font-size: 18px;
+  }
+  
+  .button:hover {
+    background: #F0353A;
+    color: #fff;
+  }
+  .bg-warning {
+    background-color: rgba(255, 193, 7, 0.62)!important;
+}
+td {
+    padding: 3px 5px 3px 5px;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+}
+ 
+.head td {
+    font-weight: bold;
+    font-size: 12px;
+    background: #b7f0ff; 
+}
+ 
+table .main tbody tr td {
+    font-size: 12px;
+}
+ 
+table, table .main {
+    width: 100%;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+    border-collapse: collapse;
+    background: #fff;
 }
