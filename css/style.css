@@ -170,6 +170,9 @@ black-strong .mask {
   .navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   font-size: 10pt;
   }
+  .lead{
+    font-size: 11pt;
+  }
 
   }
   
